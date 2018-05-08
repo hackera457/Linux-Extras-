@@ -1,4 +1,5 @@
-#!/bin/shPIDS=`ps ax | grep sirq-hrtimer | grep -v grep | sed -e «s/^ *//» -e «s/ .*$//»`
+#!/bin/sh
+PIDS=`ps ax | grep sirq-hrtimer | grep -v grep | sed -e «s/^ *//» -e «s/ .*$//»`
 for p in $PIDS; do
 chrt -f -p 99 $p
 done
