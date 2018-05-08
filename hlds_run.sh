@@ -13,11 +13,11 @@
     TITLE='Dedicated Server'
     SESSION='hlds'
     DAEMON='hlds_run'
-    DIR='/home/user/hlds'
+    DIR='/home/hackera457/servers/d2'
     USER='root'
 
     # Game options
-    IP='12.23.34.45'
+    IP='192.168.0.170'
     PORT='27015'
     MAP='de_dust2'
     GAME='cstrike'
