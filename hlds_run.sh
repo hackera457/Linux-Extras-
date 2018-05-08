@@ -7,7 +7,6 @@ HLDS_PATH='/home/hackera457/servers/d2'
 CS_USER=root
 DIR='/home/hackera457/servers/d2'
 DAEMON=hlds_run
-PATH=/bin:/usr/bin:/sbin:/usr/sbin
 
 # Server Settings
 IP='192.168.0.170'
