@@ -18,7 +18,7 @@ for p in $PIDS; do
 chrt -f -p 98 $p
 done
 
-PIDS=`pidof srcds_i486`
+PIDS=`pidof srcds_i386`
 for p in $PIDS; do
 chrt -f -p 98 $p
 done
@@ -33,7 +33,7 @@ for p in $PIDS; do
 chrt -f -p 98 $p
 done
 
-PIDS=`pidof hlds_i486`
+PIDS=`pidof hlds_i386`
 for p in $PIDS; do
 chrt -f -p 98 $p
 done
